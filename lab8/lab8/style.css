@@ -14,28 +14,12 @@ img{
   max-width: 100%;
   height: auto;
 }
-@media screen and (max-width: 768px) {
-  .heading {
-    font-size: 56px;
-  }
-  .subheading {
-    font-size: 46px;
-  }
-}
-@media screen and (max-width: 570px) {
-  .heading {
-    font-size: 36px;
-  }
-  .subheading {
-    font-size: 26px;
-}
-@media screen and (max-width: 320px) {
   .heading {
     font-size: 26px;
   }
   .subheading {
     font-size: 16px;
-}
+}}
 .container {
   max-width: 928px;
   margin: 0 auto;
@@ -59,6 +43,7 @@ img{
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+  display: inline-block;
 }
 .page-header a:first-child {
 margin-left: 0;
@@ -217,3 +202,25 @@ margin-left: 0;
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
 }
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 56px;
+  }
+  .subheading {
+    font-size: 46px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .heading {
+    font-size: 36px;
+  }
+  .subheading {
+    font-size: 26px;
+}}
+@media screen and (max-width: 320px) {
+  .heading {
+    font-size: 26px;
+  }
+  .subheading {
+    font-size: 16px;
+}}
